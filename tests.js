@@ -1,9 +1,9 @@
 
-export function error() {
+export function tests() {
     try {
         const qwe = 6 / 0
         console.log(qwe)
     } catch {
-        throw new Error("stop workflow");
+        throw new Error("деление на ноль");
     }
 }
