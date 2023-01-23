@@ -1,5 +1,5 @@
 
-export function tests() {
+function tests() {
     try {
         const qwe = 6 / 0
         console.log(qwe)
