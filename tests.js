@@ -1,6 +1,7 @@
+const fs = require('fs');
+
 try {
-    const qwe = 6 / 0
-    console.log(qwe)
+    fs.readFileSync('text.txt', 'utf8')
 } catch {
-    throw new Error("деление на ноль");
+    throw new Error("ошибка открытия файла")
 }
